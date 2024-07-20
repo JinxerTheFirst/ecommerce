@@ -29,7 +29,7 @@ export default function NavBar() {
       <nav className="sticky bg-blue-700 top-0 left-0 right-0 z-50 ">
         <div className=" container mx-auto flex flex-col lg:flex-row justify-between items-center">
           <div className="flex items-center justify-between w-full lg:w-auto ">
-            <Link to={"/"}>
+            <Link to={"/ecommerce"}>
               <img width={150} src={logo} alt="fresh cart logo" />
             </Link>
             <button className="lg:hidden p-2" onClick={handleNavToggle}>
