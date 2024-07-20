@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        index: true,
+        path: "ecommerce",
         element: (
           <ProtectedRoute>
             <Home />
