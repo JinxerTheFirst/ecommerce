@@ -21,7 +21,7 @@ export default function Login() {
       if (response.data.message === "success") {
         localStorage.setItem("userToken", response.data.token);
         setuserLogin(response.data.token);
-        navigate("/");
+        navigate("/ecommerce");
       } else {
         const errorMsg =
           response?.data?.message || "An error occurred. Please try again.";
