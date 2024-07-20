@@ -140,7 +140,7 @@ export default function RecentProducts() {
               className="sm:w-full md:w-1/4 p-2 container mx-auto"
             >
               <div className="product border border-transparent hover:border-green-500 hover:shadow-lg rounded-xl transition-all duration-500 p-2 group">
-                <Link to={`productdetails/${product.id}`}>
+                <Link to={`ecommerce/productdetails/${product.id}`}>
                   <img
                     className="w-5/6 mx-auto"
                     src={product.imageCover}
